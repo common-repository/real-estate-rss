@@ -1,0 +1,19 @@
+#wrap{
+	margin: 0 auto;
+}
+h1,h2{
+	border-bottom: #c4c3ce 1px solid;
+}
+
+blockquote{
+	background: transparent url('blockquote.gif') no-repeat left top;
+	font-style: italic;
+	padding-left: 34px;
+	padding-top: 10px;
+	display: block;
+}
+
+.special-tags{
+	background-color: #E4E4E4;
+	padding: 5px 10px 20px 30px;
+}

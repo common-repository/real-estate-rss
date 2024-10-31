@@ -1,0 +1,21 @@
+div#rerss-adminicon{
+		background: transparent url(../images/rss_lg.png) no-repeat left top;
+}
+/*
+div.rss-template-action{
+    float: right;
+    padding-right: 30px;
+}*/
+span.edit{
+	color: #21759B;
+	cursor: hand;
+}
+
+span.edit:focus{
+	cursor: hand;
+}
+
+span.edit:hover{
+	color: #d54e21;
+	cursor: hand;
+}

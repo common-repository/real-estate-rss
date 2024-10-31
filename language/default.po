@@ -1,0 +1,227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Real Estate RSS 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-05 02:44+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Abdul Ibad <support@ibadev.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: /WebServer/abdul-ibad/wp-content/plugins/real-estate-rss\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: real_estate_rss.php:110
+msgid "Real-Estate RSS"
+msgstr "Real-Estate RSS"
+
+#: real_estate_rss.php:110
+msgid "RE RSS"
+msgstr ""
+
+#: real_estate_rss.php:112
+msgid "RSS Templates"
+msgstr ""
+
+#: real_estate_rss.php:112
+#: admin/templates_list.php:6
+msgid "Templates"
+msgstr ""
+
+#: real_estate_rss.php:113
+msgid "RSS Configuration"
+msgstr "RSS Konfigurasi"
+
+#: real_estate_rss.php:113
+msgid "Configuration"
+msgstr "Konfigurasi"
+
+#: real_estate_rss.php:114
+msgid "RSS Helpers"
+msgstr ""
+
+#: real_estate_rss.php:114
+msgid "Help"
+msgstr "Bantuan"
+
+#: real_estate_rss.php:143
+msgid "Selected Templates deleted Successfully"
+msgstr "Tampilan-tampilan terpilih berhasil dihapus"
+
+#: real_estate_rss.php:210
+msgid "New template has been added"
+msgstr "Tampilan baru telah diadakan"
+
+#: real_estate_rss.php:213
+#: real_estate_rss.php:244
+#: real_estate_rss.php:271
+#: real_estate_rss.php:304
+#: real_estate_rss.php:329
+msgid "No Response from server"
+msgstr "Tidak ada respon dari server"
+
+#: real_estate_rss.php:241
+msgid "Template has been updated"
+msgstr "Tampilan telah diubah"
+
+#: real_estate_rss.php:253
+msgid "Are you sure want to delete this?"
+msgstr ""
+
+#: real_estate_rss.php:287
+msgid "This will truncate Real Estate RSS Database and Reset Options ?"
+msgstr ""
+
+#: real_estate_rss.php:450
+#: real_estate_rss.php:660
+msgid "Re-Create Database"
+msgstr ""
+
+#: real_estate_rss.php:470
+msgid "Options updated"
+msgstr ""
+
+#: real_estate_rss.php:481
+msgid "Options update failed"
+msgstr ""
+
+#: real_estate_rss.php:660
+msgid "Save Changes"
+msgstr "Simpan Perubahan"
+
+#: real_estate_rss.php:678
+msgid "RSS Help"
+msgstr ""
+
+#: real_estate_rss.php:682
+#: real_estate_rss.php:703
+msgid "Documentation"
+msgstr "Dokumentasi"
+
+#: real_estate_rss.php:683
+msgid "Compatibility Test"
+msgstr "Test Kompabilitas"
+
+#: real_estate_rss.php:703
+msgid "Visit plugin home"
+msgstr "Kunjungi rumah plugin"
+
+#: real_estate_rss.php:703
+msgid "Donate"
+msgstr "Sumbangan"
+
+#: real_estate_rss.php:703
+msgid "Get Pro Version"
+msgstr "Dapatkan Versi Pro"
+
+#: admin/add_template.php:6
+msgid "Add Custom Template"
+msgstr "Tambah Kustom Tampilan"
+
+#: admin/add_template.php:9
+#: admin/templates_list.php:28
+msgid "Template Name"
+msgstr "Nama tampilan"
+
+#: admin/add_template.php:11
+#: admin/edit_template.php:4
+msgid "The name is used to identify the template."
+msgstr "Nama digunakan untuk mengidentifikasi tampilan."
+
+#: admin/add_template.php:16
+#: admin/edit_template.php:9
+msgid "Template Header"
+msgstr "Kepala tampilan"
+
+#: admin/add_template.php:21
+#: admin/edit_template.php:14
+msgid "Template Body"
+msgstr "Badan tampilan"
+
+#: admin/add_template.php:23
+#: admin/edit_template.php:16
+msgid "Template Body is used by items (looping)"
+msgstr "Badan tampilan digunakan oleh objek-objek (pengulangan)"
+
+#: admin/add_template.php:27
+#: admin/edit_template.php:20
+msgid "Template Footer"
+msgstr "Kaki tampilan"
+
+#: admin/config.php:18
+msgid "Default Template"
+msgstr "Template asal"
+
+#: admin/config.php:39
+msgid "Cache Enable"
+msgstr "Dapatkan cache"
+
+#: admin/config.php:47
+msgid "Cache Time"
+msgstr "Waktu cache"
+
+#: admin/config.php:56
+msgid "Cache Directory"
+msgstr "Tempat cache"
+
+#: admin/edit_template.php:2
+msgid "Template name"
+msgstr "Nama tampilan"
+
+#: admin/edit_template.php:24
+msgid "Save"
+msgstr "Simpan"
+
+#: admin/edit_template.php:24
+msgid "Hide"
+msgstr "Sembunyi"
+
+#: admin/templates_list.php:11
+msgid "Actions:"
+msgstr "Aksi"
+
+#: admin/templates_list.php:13
+msgid "Bulk Actions"
+msgstr ""
+
+#: admin/templates_list.php:14
+#: admin/templates_listview.php:20
+msgid "Delete"
+msgstr "Hapus"
+
+#: admin/templates_list.php:16
+msgid "Apply"
+msgstr "Terapkan"
+
+#: admin/templates_list.php:27
+msgid "ID"
+msgstr ""
+
+#: admin/templates_list.php:48
+msgid ""
+"You are about to delete the selected items.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+"Anda akan menghapus tampilan terpilih.\n"
+"'Cancel' untuk menghentikan, 'OK' untuk menghapusnya."
+
+#: admin/templates_listview.php:14
+msgid "This is default template, you can't delete this."
+msgstr "Ini tampilan asal, anda tidak bisa menghapus ini."
+
+#: admin/templates_listview.php:16
+#: admin/templates_listview.php:20
+msgid "Edit this template"
+msgstr "Ubah tampilan ini"
+
+#: admin/templates_listview.php:20
+msgid "Edit"
+msgstr "Ubah"
+
+#: admin/templates_listview.php:20
+msgid "Delete this template"
+msgstr "Hapus tampilan ini"
+

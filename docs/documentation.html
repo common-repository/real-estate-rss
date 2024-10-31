@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	
+	<title>Real-Estate RSS Documentation</title>
+	<style type="text/css">
+	@import "style.css";
+	</style>
+</head>
+
+<body>
+<div id="wrap">
+<ol>
+	<li><strong><a href="#overview">Overview</a></strong></li>
+	<li><strong><a href="#install">Install</a></strong></li>
+	<li><strong><a href="#customtemplates">Custom Templates</a></strong></li>
+	<li><strong><a href="#usage">Usage</a></strong></li>
+	<li><strong><a href="#support">Support &amp; Donate</a></strong></li>
+</ol>
+
+<h2><a name="overview">Overview</a></h2>
+<p>Real-Estate RSS is help you insert RSS into wordpress posts/pages easily.</p>
+<h2><a name="install">Install</a></h2>
+<p>Upload real-estate-rss.zip into your plugins directory under wp-content.<br />
+	See <a href="http://codex.wordpress.org/Managing_Plugins#Installing_Plugins" target="_blank">http://codex.wordpress.org/Managing_Plugins#Installing_Plugins</a></p>
+<h2><a name="customtemplates">Custom Templates</a></h2>
+<p>
+	<ol>
+	<li><strong>Adding Custom Templates</strong>
+	<p>To adding RSS Custom Templates, go to "RE RSS->Templates". You can fill Template Header, Body, and Footer with HTML Tags.
+		<blockquote>Custom templates should be written as HTML and also use special ‘tags’ which get substituted for feeds information when shown. The following tags can be used when defining a custom templates; each is replaced with the feed’s information.</blockquote> 
+	</p>
+	
+	<div class="special-tags">
+			<h3>Header &amp; Footer Special Tags</h3>
+	<ul>
+		<li>{title}</li>
+		<li>{link}</li>
+		<li>{description}</li>
+		<li>{language}</li>
+		<li>{copyright}</li>
+		<li>{category}</li>
+		<li>{image}
+			<ul>
+				<li>{image url}</li>
+				<li>{image height}</li>
+				<li>{image width}</li>
+				<li>{image title}</li>
+				<li>{image link}</li>
+			</ul>
+		</li>
+		<li>{favicon}</li>
+	</ul>
+		<h3>Body Special Tags</h3>
+		<ul>
+			<li>{title}</li>
+			<li>{link}</li>
+			<li>{description}</li>
+			<li>{author}</li>
+			<li>{category}</li>
+			<li>{source}</li>
+			<li>{date "<a href="http://php.net/manual/en/function.date.php">format</a>"}</li>
+			<li>{content}</li>
+		</ul>
+	</div>
+		
+	</li>
+	</ol>
+</p>
+<h2><a name="usage">Usage</a></h2>
+<p>
+You can use simple shortcode<br />
+[rss url="feeds url"]
+</p>
+<p>
+<strong>With Custom Template</strong><br />
+[rss url="feeds url" template=custom_template_id]<br />
+Ex: [rss url="feeds url" template=1]
+</p>
+<p>
+<strong>Specify the number of items</strong>
+<br />
+[rss url="feeds url" items=number_of_items]
+<br />
+Ex: [rss url="feeds url" items=3]
+</p>
+<p>
+	<strong>Sample Advanced Shortcode</strong>
+	<br />
+	[rss url="feeds url" template=1 items=3]
+	<br />
+	[rss template=1 url="feeds url" items=3]
+<p>
+Note:<br /><em> 
+url parameter is required. template and items is optional.
+</em>
+</p>
+<h2><a name="support">Support &amp; Donate</a></h2>
+<p>found bugs, request features, feedback please contact me</p>
+<p>I spend a lot time, to develop this plugin. <br />If you find this plugin is useful, Please make some donations<br /><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&amp;business=3ZM74BGUXB7EE&amp;lc=ID&amp;item_name=Real%20Estate%20RSS&amp;currency_code=USD&amp;bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted" title="Click to donate"><img src="https://www.paypal.com/en_US/i/btn/x-click-but21.gif" alt="Please make some donations" style="border:0" /></a></p>
+</div>
+
+</body>
+</html>
